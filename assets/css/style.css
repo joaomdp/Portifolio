@@ -283,3 +283,30 @@ i {
     border-radius: 50px;
     animation: iconSlide 4s infinite alternate;
 }
+
+@keyframes iconSlide {
+    25% {
+        border: 2px solid #e6d12e;
+        left: 0px;
+    }
+    50% {
+        border: 2px solid #c40101;
+        left: 70px;
+    }
+    75% {
+        border: 2px solid #8749f2;
+        left: 145px;
+    }
+    100% {
+        border: 2px solid #47ea15;
+        left: 216px;
+    }
+}
+
+.social_icons:hover .icon_circle {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+/* features image  */
+
